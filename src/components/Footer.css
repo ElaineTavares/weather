@@ -1,0 +1,61 @@
+.footer{
+    background-color: #77d2dd;
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer h4{
+    font-size: 24px;
+    text-align: center;
+}
+
+.footer .whatss{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+     color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .2s ease;
+}
+
+.footer .whatss:hover {
+    color:blue;
+}
+
+.whats{
+    width: 30px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.footer .email {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .2s ease;
+    display: flex;
+    align-items: center;
+   
+}
+
+.footer .emaill{
+    width: 50px;
+    background-color: transparent;
+}
+
+.footer .email:hover {
+    color:blue;
+}
+
+@media(max-width: 440px){
+.footer h4{
+    font-size: 18px;
+}
+}

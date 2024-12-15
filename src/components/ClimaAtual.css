@@ -1,0 +1,17 @@
+.clima-atual{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.clima-atual h3{
+    font-size: 28px;
+}
+
+.clima-atual img{
+    width: 80px;
+}
+
+.clima-atual p{
+    font-size: 18px;
+    font-weight: bold;
+}
